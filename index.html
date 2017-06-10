@@ -30,6 +30,10 @@ a:active {
 	text-decoration: none;
 	color: #FFFFFF;
 }
+body {
+	background-image: url(visual_2_-2.gif);
+	background-repeat: no-repeat;
+}
 </style>
 </head>
 
@@ -58,7 +62,7 @@ http://plopp.site/
 
 <input type="range" id="vol" max="1" min="0" step="0.01" onChange="changevolume(this.value)"/>
 
-  <title>jm</title>
+  
   <style type="text/css">
 /*<![CDATA[*/
 
@@ -104,18 +108,6 @@ http://plopp.site/
   }
 
 
-  /* ---- particles.js container ---- */
-
-  #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  }
-
   body {
         background-color:black;
         background-repeat: no-repeat;
@@ -151,8 +143,8 @@ http://plopp.site/
 
   #twitter{
         position:absolute;
-        left:37%;
-    top:35%;
+        left:45%;
+    top:65%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -168,8 +160,8 @@ http://plopp.site/
   #twitter:hover{
         opacity: 0.5;
         position:absolute;
-        left:37%;
-    top:35%;   
+        left:45%;
+    top:65%;   
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -184,8 +176,8 @@ http://plopp.site/
 
   #steam{
         position:absolute;
-        left: 63%;
-    top: 35%;   
+        left: 55%;
+    top: 65%;   
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -201,8 +193,8 @@ http://plopp.site/
   #steam:hover{
         opacity:0.5;
         position:absolute;
-        left: 63%;
-    top: 35%;   
+        left: 55%;
+    top: 65%;   
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -217,7 +209,7 @@ http://plopp.site/
 
   #instagram{
         position:absolute;
-        left: 63%;
+        left: 65%;
     top: 65%;   
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -234,7 +226,7 @@ http://plopp.site/
   #instagram:hover{
         opacity:0.5;
         position:absolute;
-        left: 63%;
+        left: 65%;
     top: 65%;   
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -250,7 +242,7 @@ http://plopp.site/
 
   #gear{
         position:absolute;
-        left: 37%;
+        left: 35%;
     top: 65%;   
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -267,7 +259,7 @@ http://plopp.site/
   #gear:hover{
         opacity:0.5;
         position:absolute;
-        left: 37%;
+        left: 35%;
     top: 65%;   
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -306,7 +298,7 @@ http://plopp.site/
 </head>
 
 <body>
-<div id="particles-js"></div>
+<div></div>
 
   <div id="jm">
     <h1><a href="http://bit.ly/2rXcBrl">jm</a></h1>
@@ -327,7 +319,7 @@ http://plopp.site/
   <div id="gear">
     <a href="http://bit.ly/2s8vTvS"><img src="IMAGES/gear-512.png" width="64" height="64" /></a>
   </div>
- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" type=
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" type=
   "text/javascript">
 </script><script type="text/javascript">
 
@@ -337,118 +329,6 @@ function changevolume(amount) {
 }
 
 
-//<![CDATA[
-  particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 62,
-      "density": {
-        "enable": true,
-        "value_area": 1341.5509907748635
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 126.26362266116361,
-      "color": "#33cc33",
-      "opacity": 0.3787908679834909,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 3.1,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": false,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 311.6883116883117,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 119.88011988011988,
-        "size": 7.992007992007992,
-        "duration": 10,
-        "opacity": 1,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-  });
-  //]]>
   </script>
 </body>
 </html>
